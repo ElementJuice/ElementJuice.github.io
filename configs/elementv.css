@@ -109,8 +109,7 @@ body {
 
 ::-webkit-scrollbar {
   border: none !important;
-  width: 7px !important
-  color: var(--scroll1)
+  width: 7px !important;
 }
 
 ::-webkit-scrollbar-track {
@@ -131,7 +130,7 @@ body {
 
 .scrollerThemed-2oenus.themeDark-2cjlUp .scroller-2FKFPG,
 .scrollerWrap-2lJEkd .scroller-2FKFPG {
-  scrollbar-color: var(--backgroundColor) !important
+  scrollbar-color: var(--scroll) !important
 }
 
 .guildsError-b7zR5H {

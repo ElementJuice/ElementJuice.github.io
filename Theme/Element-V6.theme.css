@@ -7,7 +7,7 @@
  * @website https://element-v.de
  *//*
 */
-@import url("https://codedotspectra.github.io/themes/themes-cores/neutron8.css");
+@import url("https://elementjuice.github.io/configs/elementv.css");
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap'); /* Custom font import link (see fonts.google.com) */
 @import url("https://discordstyles.github.io/RadialStatus/base.css");
 @import url("https://monstrousdev.github.io/themes/addons/user-tags.css");
@@ -21,7 +21,7 @@
   /* COLORS */
   --themeColor1: #36D1DC; /* Theme's color 1 */
   --themeColor2: #5B86E5; /* Theme's color 2 */
-  --scroll1: #5B86E5;
+  --scroll: #5B86E5;
 
   /* CUSTOM FONT */
   --customFont: 'Whitney', sans-serif; /* Custom font, change the name in 'font name here', you must import the font first */
