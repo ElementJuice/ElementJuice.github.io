@@ -109,7 +109,7 @@ body {
 
 ::-webkit-scrollbar {
   border: none !important;
-  width: 7px !important
+  width: 50px !important
 }
 
 ::-webkit-scrollbar-track {
