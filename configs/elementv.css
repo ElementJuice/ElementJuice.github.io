@@ -109,7 +109,8 @@ body {
 
 ::-webkit-scrollbar {
   border: none !important;
-  width: 50px !important
+  width: 7px !important
+  color: var(--scroll1)
 }
 
 ::-webkit-scrollbar-track {
