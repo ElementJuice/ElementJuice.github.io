@@ -108,15 +108,23 @@ body {
 }
 
 ::-webkit-scrollbar {
+<<<<<<< HEAD
   width: 8px !important;
   height: 8px !important;
+=======
+  border: none !important;
+  width: 7px !important
 }
 
-::-webkit-scrollbar,
-::-webkit-scrollbar-track,
+::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, .05) !important;
+  border: none !important
+>>>>>>> parent of 3a31f9d (Update elementv.css)
+}
+
 ::-webkit-scrollbar-track-piece {
-  border-color: transparent !important;
-  background: transparent !important;
+  background: 0 0 !important;
+  border: none !important
 }
 
 ::-webkit-scrollbar-thumb {
@@ -124,10 +132,6 @@ body {
   border: none !important;
   background-clip: content-box !important;
   background: var(--scrollbar-colour) !important;
-}
-
-::-webkit-scrollbar-corner {
-  visibility: hidden !important;
 }
 
 .scrollerThemed-2oenus.themeDark-2cjlUp .scroller-2FKFPG,
