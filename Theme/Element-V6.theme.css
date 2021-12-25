@@ -1,15 +1,13 @@
 /**
- * @name Element-V Better Discord Theme Dark
- * @version 1.5
- * @description Ein Better Discord Theme für Element-V
- * @author Juice | Element-V
+ * @name Element-V by Juice
+ * @version 1.0
+ * @description Element-V BetterDiscord Theme
+ * @author Juice
  * @source https://github.com/codedotspectra/themes
  * @website https://element-v.de
- * @invite KFK5nRm
- */
- /*
+ *//*
 */
-@import url('https://discordstyles.github.io/FrostedGlass/dist/FrostedGlass.css');
+@import url("https://codedotspectra.github.io/themes/themes-cores/neutron8.css");
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap'); /* Custom font import link (see fonts.google.com) */
 @import url("https://discordstyles.github.io/RadialStatus/base.css");
 @import url("https://monstrousdev.github.io/themes/addons/user-tags.css");
@@ -22,10 +20,7 @@
 
   /* COLORS */
   --themeColor1: #36D1DC; /* Theme's color 1 */
-  --themeColor2:    rgba(15,70,128,1); /* Theme's color 2 */
-  --member-listing-role-color: #43b581ff;
-
-  --scrollbar-colour: #36D1DC;
+  --themeColor2: #5B86E5; /* Theme's color 2 */
 
   /* CUSTOM FONT */
   --customFont: 'Whitney', sans-serif; /* Custom font, change the name in 'font name here', you must import the font first */
@@ -37,7 +32,7 @@
 
   /* BACKGROUND */
   --backgroundColor: #0d0d0d28; /* Background color */
-  --backgroundImage:  url("https://i.ibb.co/ngQpjjh/testbackground.png"); /* Backround image, must be a direct link | You can also set it to a gradient, google "css gradient"*/
+  --backgroundImage: url("https://i.ibb.co/ngQpjjh/testbackground.png"); /* Backround image, must be a direct link | You can also set it to a gradient, google "css gradient"*/
   --backgroundPosition: center; /* Image position | center, left, right, bottom, top */
   --backgroundSize: cover; /* To cover the entire app, set to "cover". You can also set it to "100% 100%" but the image will be stretched. Set to "contain" to see the entire image */
   --backgroundRepeat: no-repeat; /* if you want the image to repeat | Google "css background repeat" */
