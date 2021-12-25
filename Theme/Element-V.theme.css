@@ -1,0 +1,66 @@
+/**
+ * @name Element-V Theme
+ * @version 2
+ * @description Element-V BetterDiscord Theme
+ * @author Juice
+ * @source https://github.com/codedotspectra/themes
+ * @website https://element-v.de
+ */
+@import url("https://elementjuice.github.io/configs/elementv.css");
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap'); /* Custom font import link (see fonts.google.com) */
+@import url("https://discordstyles.github.io/RadialStatus/dist/RadialStatus.css");
+@import url("https://monstrousdev.github.io/themes/addons/user-tags.css");
+@import url("https://codedotspectra.github.io/themes/core/badges.css");
+/**@import url("https://discordstyles.github.io/HorizontalServerList/dist/HorizontalServerList.css");*/
+:root {
+ /**--HSL-server-icon-size: 40px;  /* Size of the server icons | DEFAULT: 40px */
+  /** --HSL-server-spacing: 12px;  /* Spacing between each server icon | DEFAULT: 10px */
+  --background-image: url('https://i.ibb.co/ngQpjjh/testbackground.png');
+  --background-image-blur: 0px;
+  --background-image-size: cover;
+  --background-image-position: center;
+  --popout-modal-image: url('https://i.imgur.com/kYW2H5C.jpg');
+  --popout-modal-blur: 100px;
+  --popout-modal-size: cover;
+  --popout-modal-position: center;
+  --home-button-image: url('https://i.ibb.co/Zc1qqzD/Vlogo.png');
+  --home-button-size: cover;
+  --home-button-position: center;
+  --serverlist-brightness: 0.6;
+  --left-brightness: 0.3;
+  --middle-brightness: 0.3;
+  --right-brightness: 0.4;
+  --popout-modal-brightness: 0.85;
+  --gradient-primary: 54, 209, 220;
+  --gradient-secondary: 91, 134, 229;
+  --gradient-direction: 159deg;
+  --tint-colour: 255,51,159;
+  --tint-brightness: 0;
+  --window-padding: 0px;
+  --window-roundness: 0px;
+  --scrollbar-colour: #36D1DC;
+  --link-colour: #00b0f4;
+  --show-gift-gif-buttons: no-repeat;
+  --font: 'Whitney';
+  --update-notice-1: none;
+
+  --rs-small-spacing: 2px; /* Gap between avatar and status for members list/dms | MUST end in px */
+  --rs-medium-spacing: 3px; /* Gap between avatar and status for User popout | MUST end in px */
+  --rs-large-spacing: 4px; /* Gap between avatar and status for User profiles | MUST end in px */
+
+  --rs-small-width: 2px; /* Thickness of status border for members list/dms | MUST end in px */
+  --rs-medium-width: 3px; /* Thickness of status border for User popout | MUST end in px */
+  --rs-large-width: 4px; /* Thickness of status border for User profile | MUST end in px */
+
+  --rs-avatar-shape: 50%; /* 50% for round - 0% for square */
+
+  --rs-online-color: #43b581; /* Colour for online status */
+  --rs-idle-color: #faa61a; /* Colour for idle status */
+  --rs-dnd-color: #f04747; /* Colour for dnd status */
+  --rs-offline-color: #636b75; /* Colour for offline status */
+  --rs-streaming-color: #643da7; /* Colour for streaming status */
+  --rs-invisible-color: #747f8d; /* Colour for invisible status - Note: this will only show for your own invisibility */
+  --rs-phone-color: var(--rs-online-color); /* Colour of the ring and phone icon when a user is on their phone |  */
+
+  --rs-phone-visible: block; /* Visibility of the phone icon next to a users avatar. | block = visible | none = hidden */
+}
