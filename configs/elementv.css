@@ -107,7 +107,7 @@ body {
   display: none
 }
 
-:::-webkit-scrollbar {
+::-webkit-scrollbar {
   width: 8px !important;
   height: 8px !important
 }
@@ -132,7 +132,7 @@ body {
 
 .scrollerThemed-2oenus.themeDark-2cjlUp .scroller-2FKFPG,
 .scrollerWrap-2lJEkd .scroller-2FKFPG {
-  scrollbar-color: var(--scroll) !important
+  scrollbar-color: var(--scrollbar-colour) !important
 }
 
 .guildsError-b7zR5H {
