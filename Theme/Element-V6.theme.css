@@ -21,7 +21,6 @@
   /* COLORS */
   --themeColor1: #36D1DC; /* Theme's color 1 */
   --themeColor2: #5B86E5; /* Theme's color 2 */
-  --scroll: #5B86E5;
 
   /* CUSTOM FONT */
   --customFont: 'Whitney', sans-serif; /* Custom font, change the name in 'font name here', you must import the font first */
@@ -39,6 +38,7 @@
   --backgroundRepeat: no-repeat; /* if you want the image to repeat | Google "css background repeat" */
   --backgroundBlur: 0px; /* Set to 0 to remove blur | Set to 10px for average blur */
   --backgroundOpacity: .50; /* 0 is transparent */
+  --scrollbar-colour: #ffffff0d;
 
   /*Icon Settings*/
   --rs-small-spacing: 2px;  /* spacing between avatar and status */
