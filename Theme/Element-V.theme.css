@@ -41,10 +41,10 @@
   --show-gift-gif-buttons: no-repeat;
   --font: 'Whitney';
   --update-notice-1: none;
-  --interactive-muted: #36D1DC; /* Farbe Muted Channel */
-  --interactive-hover: #f20000; /* Farbe Hovertext */
+  --interactive-muted: #f20000; /* Farbe Muted Channel */
+  --interactive-hover: #36D1DC; /* Farbe Hovertext */
   --interactive-normal: #36D1DC; /* Farbe Normal */
-  --interactive-active: #f20000; /* Farbe aktiever tab */
+  --interactive-active: #36D1DC; /* Farbe aktiever tab */
   --rs-small-spacing: 2px; /* Gap between avatar and status for members list/dms | MUST end in px */
   --rs-medium-spacing: 3px; /* Gap between avatar and status for User popout | MUST end in px */
   --rs-large-spacing: 4px; /* Gap between avatar and status for User profiles | MUST end in px */
