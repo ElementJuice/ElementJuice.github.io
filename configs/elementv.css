@@ -414,7 +414,7 @@
   color: rgb(var(--gradient-primary));
 }
 #app-mount .checkbox-1ix_J3 {
-  background: rgb(var(--gradient-primary));
+  background: var(--white);
   border: none;
 }
 #app-mount .checkbox-1ix_J3.checked-3_4uQ9 {
