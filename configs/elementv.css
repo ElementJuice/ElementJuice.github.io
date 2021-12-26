@@ -136,7 +136,7 @@
 }
 
 #app-mount .app-2rEoOp::before {
-  content: "Element-V Theme Version ist nicht mehr Aktuell";
+  content: "Dein Element-V Theme Version ist nicht mehr Aktuell";
   white-space: pre-wrap;
   display: var(--update-notice-1, block);
   color: #fff;
