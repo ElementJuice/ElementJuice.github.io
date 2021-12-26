@@ -41,6 +41,10 @@
   --show-gift-gif-buttons: no-repeat;
   --font: 'Whitney';
   --update-notice-1: none;
+  --interactive-muted: #36D1DC;
+  --interactive-hover: #f20000;
+  --interactive-normal: #36D1DC;
+  --interactive-active: #f20000;
 
   --rs-small-spacing: 2px; /* Gap between avatar and status for members list/dms | MUST end in px */
   --rs-medium-spacing: 3px; /* Gap between avatar and status for User popout | MUST end in px */
