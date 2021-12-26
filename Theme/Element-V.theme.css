@@ -11,12 +11,12 @@
 @import url("https://discordstyles.github.io/RadialStatus/dist/RadialStatus.css");
 @import url("https://monstrousdev.github.io/themes/addons/user-tags.css");
 @import url("https://codedotspectra.github.io/themes/core/badges.css");
-/**@import url("https://discordstyles.github.io/HorizontalServerList/dist/HorizontalServerList.css");*/
+/** @import url("https://discordstyles.github.io/HorizontalServerList/dist/HorizontalServerList.css"); */
 :root {
- /**--HSL-server-icon-size: 40px;  /* Size of the server icons | DEFAULT: 40px */
-  /** --HSL-server-spacing: 12px;  /* Spacing between each server icon | DEFAULT: 10px */
+  /**--HSL-server-icon-size: 40px;  /* Size of the server icons | DEFAULT: 40px */
+  /**--HSL-server-spacing: 12px;  /* Spacing between each server icon | DEFAULT: 10px */
   --background-image: url('https://i.ibb.co/ngQpjjh/testbackground.png');
-  --background-image-blur: 0px;
+  --background-image-blur: 75px;
   --background-image-size: cover;
   --background-image-position: center;
   --popout-modal-image: url('https://i.imgur.com/kYW2H5C.jpg');
@@ -41,21 +41,17 @@
   --show-gift-gif-buttons: no-repeat;
   --font: 'Whitney';
   --update-notice-1: none;
-  --interactive-muted: #36D1DC;
-  --interactive-hover: #f20000;
-  --interactive-normal: #36D1DC;
-  --interactive-active: #f20000;
-
+  --interactive-muted: #36D1DC; /* Farbe Muted Channel */
+  --interactive-hover: #f20000; /* Farbe Hovertext */
+  --interactive-normal: #36D1DC; /* Farbe Normal */
+  --interactive-active: #f20000; /* Farbe aktiever tab */
   --rs-small-spacing: 2px; /* Gap between avatar and status for members list/dms | MUST end in px */
   --rs-medium-spacing: 3px; /* Gap between avatar and status for User popout | MUST end in px */
   --rs-large-spacing: 4px; /* Gap between avatar and status for User profiles | MUST end in px */
-
   --rs-small-width: 2px; /* Thickness of status border for members list/dms | MUST end in px */
   --rs-medium-width: 3px; /* Thickness of status border for User popout | MUST end in px */
   --rs-large-width: 4px; /* Thickness of status border for User profile | MUST end in px */
-
   --rs-avatar-shape: 50%; /* 50% for round - 0% for square */
-
   --rs-online-color: #43b581; /* Colour for online status */
   --rs-idle-color: #faa61a; /* Colour for idle status */
   --rs-dnd-color: #f04747; /* Colour for dnd status */
@@ -63,6 +59,5 @@
   --rs-streaming-color: #643da7; /* Colour for streaming status */
   --rs-invisible-color: #747f8d; /* Colour for invisible status - Note: this will only show for your own invisibility */
   --rs-phone-color: var(--rs-online-color); /* Colour of the ring and phone icon when a user is on their phone |  */
-
   --rs-phone-visible: block; /* Visibility of the phone icon next to a users avatar. | block = visible | none = hidden */
 }
